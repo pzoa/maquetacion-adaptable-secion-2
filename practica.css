@@ -1,0 +1,7 @@
+.block{
+  border: 1px black solid;
+  height: 40px;
+  float: left;
+  width: 50%;
+  width: calc(50% - 2px)
+}
