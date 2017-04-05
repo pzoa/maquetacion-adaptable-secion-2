@@ -1,0 +1,113 @@
+.boxes{
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.box:last-child{
+  margin-right: 0;
+}
+
+.box--row-inverse{
+  margin-right: 0;
+  flex-direction: row-reverse;
+}
+
+.boxes-rever{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+
+
+.box:last-child{
+  margin-right: 0;
+}
+
+.box--row-inverse{
+  margin-right: 0;
+  flex-direction: row-reverse;
+}
+
+.boxes-space{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.box:last-child{
+  margin-right: 0;
+}
+
+.box--row-inverse{
+  margin-right: 0;
+  flex-direction: row-reverse;
+}
+
+
+.boxes-space-rever{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.box{
+  background: #01DFD7;
+  color: black;
+  font-size: 30px;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 20px;
+  margin: 15px;
+  text-align: center;
+}
+
+.box:last-child{
+  margin-right: 0;
+}
+
+.box--row-inverse{
+  margin-right: 0;
+  flex-direction: row-reverse;
+}
+
+.boxes{
+  display: float;
+  flex: row;
+}
+
+
+
+.box:last-child{
+  margin-right: 0;
+}
+
+.box--row-inverse{
+  margin-right: 0;
+  flex-direction: row-reverse;
+}
+
+.boxes-rever{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.boxes-space-ce{
+  display: flex;
+  justify-content: center;
+}
+
+.alaincontent{
+  align-content: center;
+}
+
+.box-aling-items .boxes{
+  height: 200px;
+  align-items: center;
+}
+
+.box-aling-items .boxes--strach{
+  align-items: center;
+}
